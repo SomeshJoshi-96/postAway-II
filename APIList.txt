@@ -1,0 +1,42 @@
+1. User Routes : /api/users   
+    i. POST: /signup - Sign up the user
+    ii. POST: /signin - Sign in the user
+    iii. GET: /logout -  Log out the user
+    iv. GET: /logout-all-devices - Logs out user from all devices
+    v. GET: /get-details/:id  - Get details of a particular user
+    vi. GET: /get-all-details/:id  - Get details of a all users
+    vii. PUT: /update-details/:id - Update details of user
+
+
+2. Posts Routes : /api/posts
+    i. POST: / - Add a post
+    ii. GET: / - Get all posts by the user
+    iii. GET: /all - Get all posts
+    iv. GET: /:id - Retrieve a specific post by id
+    v. DELETE: /:id - Delete a specific post by id
+    vi. PUT: /:id - Update a specific pot by id
+
+    
+    
+3. Comments Routes : /api/comments
+    i. GET: /:postId - Retrieve all Comments for a specific post 
+    ii. POST: /:postId - Add new comment for a specific post
+    iii. DELETE: /:postId - Delete a specific comment by id
+    iv. PUT: /:postId - Update a specific comment by id
+
+
+4. Like Routes : /api/likes
+    i. GET: /:id - Retrieve all likes for a specific post or comment
+    ii. GET: /toggle/:id?type=Post/Comment - Toggle Like Status
+
+
+5. Friend Routes : /api/friends
+    i. GET: /get-friends/:userId - Retrieve all friends of a specific user
+    ii. GET: /get-pending-requests - Retrieve all pending friend requests
+    iii. GET: /response-to-request/:friendId/:response -  Accept of reject a friend request
+
+
+6. Otp Routes : /api/Otp
+    i. GET: /send - Send OTP to an email
+    ii. POST :/verify - Verify OTP with the sent OTP and resets the password
+

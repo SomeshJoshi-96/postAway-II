@@ -1,0 +1,4 @@
+{"level":"info","message":"/api/posts/ - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/all - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/66000cf080bee850a3c19ecf - {\"content\":\"This is a amazing\"}","service":"request-logging"}
+{"level":"info","message":"1711279499300-/api/comments/66000cf080bee850a3c19ecf - {\"content\":\"This is a amazing\"}","service":"request-logging"}
